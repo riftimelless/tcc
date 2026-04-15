@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faculda+ - Home</title>
+  <link rel="stylesheet" href="home-style.css" />
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <img src="https://via.placeholder.com/40x40/2f5bd3/ffffff?text=🎓" alt="Faculda+">
+        <span>Faculda+</span>
+      </div>
+      <button class="menu-btn">☰</button>
+    </header>
+
+    <!-- Barra de busca -->
+    <div class="search-container">
+      <input type="text" placeholder="No que está pensando? 🔎" class="search-bar" />
+    </div>
+
+    <!-- Cards de categorias -->
+    <div class="categories">
+      
+      <div class="category-card">
+        <img src="https://via.placeholder.com/600x200/1e3a8a/ffffff?text=Cursos" alt="Cursos">
+        <div class="card-overlay">
+          <h3>Cursos</h3>
+        </div>
+      </div>
+
+      <div class="category-card" onclick="window.location.href='universidades.html'">
+        <img src="https://via.placeholder.com/600x200/1e40af/ffffff?text=Universidades" alt="Universidades">
+        <div class="card-overlay">
+          <h3>Universidades</h3>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <img src="https://via.placeholder.com/600x200/1e3a8a/ffffff?text=Programas" alt="Programas">
+        <div class="card-overlay">
+          <h3>Programas</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="home-script.js"></script>
+</body>
+</html>
